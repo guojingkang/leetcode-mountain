@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-const twoSum = function (nums, target) {
+const twoSum = function add(nums, target) {
   const indexArray = [];
   for (let firstIndex = 0; firstIndex < nums.length; firstIndex++) {
     for (let secondIndex = 0; secondIndex < nums.length; secondIndex++) {
@@ -16,6 +16,7 @@ const twoSum = function (nums, target) {
       }
     }
   }
+  return indexArray;
 };
 
 const array = [3, 3];
