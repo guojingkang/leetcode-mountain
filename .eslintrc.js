@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    './src/dev-tools/eslint-config/index',
+    './node_modules/js-dev-knife/lib/dev-tools/eslint-config/index',
   ],
   rules: {
     "no-console": "off"

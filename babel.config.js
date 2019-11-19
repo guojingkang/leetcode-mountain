@@ -1,3 +1,3 @@
-const config = require('./src/dev-tools/babelConfig');
+const config = require('js-dev-knife/lib/dev-tools/babelConfig');
 
 module.exports = config;
